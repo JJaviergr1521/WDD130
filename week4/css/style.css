@@ -4,9 +4,13 @@ body{
 }
 
 h1{
-    color:blueviolet;
+    color:red;
     font-size: medium;
 }
 
 /* Class selectors*/
 
+.rafting {
+  width: 100px;
+  height: auto;
+}
