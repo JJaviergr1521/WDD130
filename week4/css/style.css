@@ -1,5 +1,7 @@
-body {font-size: 100px;
-background-color: royalblue;}
+body {font-size: 25px;
+background-color: #d5f9be;
+text-align: center;
+}
 
 header,main,footer{
 
@@ -12,16 +14,14 @@ main{
 
     margin: 1rem auto;
 }
-
-
 header,footer{
     margin: 0 auto;
-    padding: 1px solid green ;
-    background-color: blue;
-
+    padding: 1px solid rgb(30, 62, 77) ;
+    background-color:#dbf4a7;
+    text-align: center;
 }
 
-h1 {color:red;}
+h1 {color:#7d84b2;}
 
 /* Class selectors*/
 
