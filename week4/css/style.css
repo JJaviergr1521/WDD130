@@ -1,6 +1,7 @@
 body {font-size: 25px;
 background-color: #d5f9be;
 text-align: center;
+border: 10px solid #8fa6cb;
 }
 
 header,main,footer{
@@ -15,17 +16,28 @@ main{
     margin: 1rem auto;
 }
 header,footer{
+    border: 15px solid #7d84b2;
     margin: 0 auto;
     padding: 1px solid rgb(30, 62, 77) ;
     background-color:#dbf4a7;
     text-align: center;
 }
 
-h1 {color:#7d84b2;}
+h1 {color:darkslateblue;}
+
+h3 {
+    color: #7d84b2;
+    background-color: aliceblue;
+}
 
 /* Class selectors*/
 
 .rafting {
   width: 100px;
   height: auto;
+}
+
+p {
+    color: darkblue;
+    border: 10px solid whitesmoke;
 }
