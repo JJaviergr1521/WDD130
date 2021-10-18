@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
-
 body { font-family: 'Indie Flower', cursive;
-    font-size: 25px;
-background-color: #d5f9be;
+    font-size: 20px;
+background-color: #d5fae5;
 text-align: center;
-border: 10px solid #8fa6cb;
 }
 
-header,main,footer{
+header,main{
 
     width: 760px;
+
+}
+footer{
+    width: 760px;
+    grid-template-columns: 1fr 300px;
 
 }
 
@@ -37,7 +40,7 @@ h3 {
 /* Class selectors*/
 
 .rafting {
-  width: 100px;
+  width: 300px;
   height: auto;
 }
 
