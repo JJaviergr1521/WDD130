@@ -3,13 +3,31 @@
 
 body { font-family: 'Indie Flower', cursive;
     font-size: 20px;
-background-color: #d5fae5;
-text-align: center;
+    background-color: #d5fae5;
+    text-align: center;
 }
 
-header,main{
+ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
-    width: 760px;
+ul, li, nav{
+    
+    display: flex;
+
+
+}
+
+header{
+
+    display: flex;
+    
 
 }
 footer{
@@ -20,28 +38,32 @@ footer{
 
 
 main{
-
+    width: 760px;
     margin: 1rem auto;
 }
 header,footer{
     border: 15px solid #7d84b2;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 10px ;
     background-color:#dbf4a7;
+    
 }
 
-h1 {color:darkslateblue;}
+h1 {color:darkslateblue;
+    box-shadow: 20px 8px 54px darkblue;
+    background-color:whitesmoke;}
 
 h3 {
     color: #7d84b2;
     background-color: aliceblue;
+    box-shadow: 10px 15px 8px darkblue;
 }
 
 /* Class selectors*/
 
 .rafting {
-  width: 300px;
-  height: auto;
+    width: 300px;
+    height: auto;
 }
 
 p {
