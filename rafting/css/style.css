@@ -19,14 +19,16 @@ ul{
 
 ul, li, nav{
     
-    display: flex;
-
+    display:grid;
+    grid-column: none;
 
 }
 
+
+
 header{
 
-    display: flex;
+    display: block;
     
 
 }
@@ -64,6 +66,11 @@ h3 {
 .rafting {
     width: 300px;
     height: auto;
+}
+
+.griding{
+    display: grid;
+    column-gap: 1px;
 }
 
 p {
