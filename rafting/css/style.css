@@ -155,3 +155,32 @@ main img {
 .social {
     justify-items: center;
 }
+
+button{
+    background-color:ghostwhite;
+
+}
+
+.Topicr{
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+.Oner{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    
+}
+
+.heroriver{
+    width: 600px;
+    max-height: 400px;
+}
+.twor {
+    grid-column:1/3; 
+    grid-row:3/4 ;
+}
+
+.fiver {
+    justify-items: right;
+}
