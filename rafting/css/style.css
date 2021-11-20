@@ -227,6 +227,7 @@ nav button {
 
 .location {
 
+    padding-top: 30px;
     text-align: center;
     grid-column: 1/4;
     grid-row: 3/4;
