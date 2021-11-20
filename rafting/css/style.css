@@ -184,3 +184,16 @@ button{
 .fiver {
     justify-items: right;
 }
+
+input{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 150px;
+    height: 60px;
+}
+
+.contactusimg{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
