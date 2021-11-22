@@ -98,6 +98,7 @@ h3 {
 main {
     display: grid;
     justify-items: center;
+    justify-content: center;
 
 }
 
@@ -183,6 +184,12 @@ button {
     grid-column: 1/3;
     grid-row: 2/3;
 
+}
+
+.imgriver  {
+    width: 500px;
+    height: 250px;
+    
 }
 
 .heroriver {
