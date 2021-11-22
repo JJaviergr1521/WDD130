@@ -227,6 +227,7 @@ main button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 nav button {
+    margin-top: 10px;
     width: 80px;
     height: 40px;
 }
